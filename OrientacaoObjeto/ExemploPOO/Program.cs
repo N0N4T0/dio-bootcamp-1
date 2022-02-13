@@ -5,12 +5,19 @@ namespace ExemploPOO{
     class Program{
         static void Main(string[] args)
         {
-            Professor p1 = new Professor();
-            p1.Salario = 2000;
-            p1.Nome = "Professor";
-            p1.Idade = 40;
-
+            Aluno p1 = new Aluno();
+            p1.Nome = "Aluno";
+            p1.Idade = 19;
+            p1.Documento = "asdjasd";
+            p1.Nota = 10;
             p1.Apresentar();
+
+            Professor p2 = new Professor();
+            p2.Nome = "Professor";
+            p2.Idade = 19;
+            p2.Documento = "asdjasd";
+            p2.Salario = 1900;
+            p2.Apresentar();
 
             // Valores válidos
             // Retangulo r = new Retangulo();
