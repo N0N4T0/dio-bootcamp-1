@@ -5,19 +5,23 @@ namespace ExemploPOO{
     class Program{
         static void Main(string[] args)
         {
-            Aluno p1 = new Aluno();
-            p1.Nome = "Aluno";
-            p1.Idade = 19;
-            p1.Documento = "asdjasd";
-            p1.Nota = 10;
-            p1.Apresentar();
+            Calculadora calc = new Calculadora();
+            System.Console.WriteLine($"Resultado da primeira soma: {calc.Somar(10,10)}");
+            System.Console.WriteLine($"Resultado da segunda soma: {calc.Somar(10,10,10)}");
 
-            Professor p2 = new Professor();
-            p2.Nome = "Professor";
-            p2.Idade = 19;
-            p2.Documento = "asdjasd";
-            p2.Salario = 1900;
-            p2.Apresentar();
+            // Aluno p1 = new Aluno();
+            // p1.Nome = "Aluno";
+            // p1.Idade = 19;
+            // p1.Documento = "asdjasd";
+            // p1.Nota = 10;
+            // p1.Apresentar();
+
+            // Professor p2 = new Professor();
+            // p2.Nome = "Professor";
+            // p2.Idade = 19;
+            // p2.Documento = "asdjasd";
+            // p2.Salario = 1900;
+            // p2.Apresentar();
 
             // Valores válidos
             // Retangulo r = new Retangulo();
