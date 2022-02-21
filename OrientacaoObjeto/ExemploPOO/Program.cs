@@ -7,7 +7,7 @@ namespace ExemploPOO{
         {
             Corrente c = new Corrente();
             c.Creditar(100);
-            c.ExibirSaldo();
+            c.ExibirSaldo(); 
 
             // Calculadora calc = new Calculadora();
             // System.Console.WriteLine($"Resultado da primeira soma: {calc.Somar(10,10)}");
